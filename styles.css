@@ -1,0 +1,52 @@
+.wraper ul li{
+display: inline-block;
+margin-right: 0;
+line-height: 75px;
+padding: 0 30px;
+}
+.wraper ul{
+text-align: center;
+margin-bottom: 0;
+position: fixed;
+z-index: 99999999999999999;
+background-color: #ccc;
+width: 100%;
+left: 0;
+}
+.wraper {
+  background-color: #ccc;
+}
+.com_sec{
+    
+}
+.com_sec.home{
+    background-color: green;
+padding: 75px 0;
+height: 800px;
+}
+.com_sec.about{
+    background-color: black;
+    height: 500px;
+}
+.com_sec.testimonials{
+    background-color: yellowgreen;
+    height: 600px;
+}
+.com_sec.contact{
+    background-color: deeppink;
+    height: 700px;
+}
+.com_sec.footer{
+    background-color: red;
+    height: 900px;
+}
+.Top h2{
+    color: #fff;
+    text-align: center;
+}
+.wraper ul .active{
+    background-color: greenyellow;
+}
+.wraper ul .active a{
+    color: red;
+}
